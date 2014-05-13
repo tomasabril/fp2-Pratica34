@@ -11,6 +11,14 @@ public class Main
 {
     public static void main(String[] args) 
     {
-        System.out.println("Olá, Java!");
+        long a=7, b=5;
+        long c;
+        c = Pratica34.mdc(a, b);
+        System.out.println(c);
+        
+        for(int i=0; i<20; i++){
+            System.out.println("fatorial de " +i);
+            System.out.println(Pratica34.fatorial(i));
+        }
     }
 }
